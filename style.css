@@ -42,6 +42,23 @@
 	box-sizing: border-box;
 	border: 1px solid;
 }
+.row:after
+{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.wrapper
+{
+	height: auto;
+	width: 95%;
+	margin: 0 auto;
+}
+.header-top-height
+{
+	height: 30px;
+}
 .header-height
 {
 	height: 200px;
@@ -53,6 +70,10 @@
 .content-height
 {
 	height: 600px;
+}
+.big-footer-height
+{
+	height: 300px;
 }
 .footer-height
 {
