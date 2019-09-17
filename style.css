@@ -42,3 +42,19 @@
 	box-sizing: border-box;
 	border: 1px solid;
 }
+.header-height
+{
+	height: 200px;
+}
+.menu-height
+{
+	height: 50px;
+}
+.content-height
+{
+	height: 600px;
+}
+.footer-height
+{
+	height: 200px;
+}
